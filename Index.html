@@ -7,23 +7,33 @@
 </head>
 
 <body>
+  <link rel="stylesheet" href="style.css">
+  <style media="screen">
+    h3{
+      background-color:#FFD6B3;
+    }
+    q{
+        background-color:#FFD6B3; 
+    }
+  </style>
   <map name="maplink">
     <area shape="rect" coords="0,0,300,200" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" alt="">
   </map>
-  <table>
+  <table class="keywords">
     <td>
       <img src="me.JPG" alt="Picture of Me" width="300" height="200" usemap="#maplink">
     </td>
     <td>
       <h1>E.<br>Kennedy</h1>
       <center>
-        <h3>This...<br>Is My Project</h3>
+        <h3>This<br>Is My Website</h3>
       </center>
     </td>
   </table>
 
   <hr size=4 noshade>
 
+<div class="profesional">
   <p>I am a full time student at St. Lawrence College, I also have many hobbies and interests. Here's a short unordered list</p>
   <ul>
     <li>Digital Photography</li>
@@ -31,16 +41,21 @@
     <li><a href="https://open.spotify.com/playlist/6x0dQahA7kz6U5fHdaMlSy?si=d2b5f316832549a8">Music</a></li>
   </ul>
 
-  <hr size=4 noshade>
-
-  <a href="portfolio.html">Here's my Portfolio of past projects!</a>
 
   <hr size=4 noshade>
 
-  <p>If you would like my contact info, either scroll to the bottom or <a href="#contact">click this link</a></p>
+    <a class="keywords profesional" href="portfolio.html">Here's my Portfolio of past projects!</a>
+</div>
+
+  <hr size=4 noshade>
+<div class="profesional">
+    <p>If you would like my contact info, either scroll to the bottom or <a href="#contact">click this link</a></p>
+</div>
+
 
   <hr size=4 noshade>
 
+<div class="personal">
   <h3>My Favorite Quote</h3>
 
   <p>
@@ -48,14 +63,17 @@
     My favorite quote of his has to be <br><br>
     <q cite="https://leagueoflegends.fandom.com/wiki/Zilean/LoL/Audio?#Joke">Time flies like an arrow, fruit flies like bananas</q>
   </p>
+</div>
 
   <hr size=4 noshade>
-
+<div class="personal">
   <span title="Hello, I've learned how to make a tooltip, this is the new tag we haven't learned in class!"> Hover over this with the mouse!</span>
+</div>
 
   <hr size=4 noshade>
 
-  <table border="2">
+<div class="personal" >
+  <table class="tableAlign" border="2" style="background-color: #FFD6B3" >
     <tr>
       <th>Games I've played</th>
       <th>Hours played</th>
@@ -77,10 +95,13 @@
     </tr>
   </table>
 
-  <hr size=4 noshade>
+</div>
 
-  <h2 id="contact">Contact Information</h2>
-  <ol>
+
+<div class="profesional">
+<hr size=4 noshade>
+  <h2 class="keywords">Contact Information</h2>
+  <ol id="contact">
     <li>Phone numbers</li>
     <ul>
       <li>+613-999-9999</li>
@@ -92,6 +113,8 @@
       <li>fakeemail123@gmail.com</li>
     </ul>
   </ol>
+</div>
+
 </body>
 
 </html>
