@@ -1,0 +1,53 @@
+body {
+  background-color: #B3DBFF;
+  font-family: mainFont;
+  font-size: 20px;
+}
+
+hr {
+  background-color: #FDB3FF;
+
+}
+
+#contact{
+  background-color: #FDB3FF;
+  width: 30%
+}
+
+.keywords{
+  background-color: #B5FFB3;
+  width: 50%;
+}
+a.keywords{
+  background-color: #B5FFB3;
+
+}
+
+.profesional{
+  text-align: left;
+
+}
+
+a.profesional{
+  text-emphasis: '*';
+  -webkit-text-emphasis: '*';
+}
+
+.personal{
+  text-align: right;
+}
+
+.tableAlign{
+  margin-right: auto;
+  margin-left:80%;
+}
+
+.photo{
+  border-radius: 30px;
+  border-color: #FDB3FF;
+}
+
+@font-face {
+  font-family: mainFont;
+  src:url(KGPrimaryItalics.ttf);
+}
